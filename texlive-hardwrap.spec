@@ -1,3 +1,9 @@
+# revision 21396
+# category Package
+# catalog-ctan /macros/latex/contrib/hardwrap
+# catalog-date 2011-02-12 10:24:58 +0100
+# catalog-license lppl1.3
+# catalog-version 0.2
 Name:		texlive-hardwrap
 Version:	0.2
 Release:	1
@@ -47,6 +53,7 @@ this useful when writing out arbitary text to an external file.
 #- source
 %doc %{_texmfdistdir}/source/latex/hardwrap/hardwrap.dtx
 %doc %{_texmfdistdir}/source/latex/hardwrap/hardwrap.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ this useful when writing out arbitary text to an external file.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
