@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-hardwrap
 Version:	0.2
-Release:	5
+Release:	6
 Summary:	Hard wrap text to a certain character length
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hardwrap
