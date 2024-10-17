@@ -3,7 +3,7 @@ Version:	21396
 Release:	2
 Summary:	Hard wrap text to a certain character length
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hardwrap
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hardwrap
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hardwrap.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hardwrap.doc.r%{version}.tar.xz
